@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+  height:100%;
+  width:100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #E0FFFF;
+}
+
+
+/*---For navigation bar on top --*/
+.navbar{
+  background-color: #CCFFFF;
+}
+
+/*---For title Youth Suicide --*/
+.title-YS{
+  background-image: url("img/titlebackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 400%;
+}
+
+/*---Place image at center --*/
+.center{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.introduction,.organization,.warningsign,.feedback,
+.process,.prevention,.article,.news,.statistics,.factors,.riskFactors,.impacts{
+  margin-left: 5rem;
+  margin-right:5rem;
+}
+
+.padding{
+  padding-bottom: 2rem;
+}
+
+.list-group-item{
+  background-color:#9AFEFF;
+  color:black;
+}
+.name,.matricnumber{
+  color:blue;
+  size: 60%;
+}
+
+/*---For image in prevention--*/
+.image {
+  width: 50%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+/*---For news & articles & main button --*/
+/*---Use in news.html --*/
+.btn-primary:hover{
+  background-color: #0000CD;
+  border: 1px solid #0000CD;
+}
+
+
+/*---For footer below --*/
+footer{
+  background-color: #3B9C9C;
+  color:black;
+  padding: .5rem
+}
+
+/*---Media Queries --*/
+/*---Use in news.html & statistics.html --*/  
+@media (max-width: 768px) {
+.display-4{
+  font-size:240%;
+} 
+  
+.statistics-text{
+  font-size:140%;
+}
+}
+
+@media (max-width: 576px) { 
+.display-4 {
+  font-size:200%;
+} 
+  
+.statistics-text{
+  font-size:120%;
+}
+}
+
+
